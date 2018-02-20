@@ -11,7 +11,7 @@ class Stringify
     if !@name && !@adjective
       return "You are nothing!"
     else
-      return @name + "is so " + @adjective
+      return @name + " is so " + @adjective
     end
   end
 end
